@@ -1,64 +1,120 @@
 @import url(https://fonts.google.com/specimen/Overpass?preview.text_type=custom);
 @import url(https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom);
 
-
-.hero{
-    border-bottom-left-radius: 120px;
-    padding: 30px;
-    background-color: #FF525C;
-    height: 450px;
-    background-image: url(./images/bg-pattern-intro-desktop.svg);
-    background-size: auto;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+.hero {
+  border-bottom-left-radius: 100px;
+  padding: 30px;
+  background-color: #ff525c;
+  height: 450px;
+  background-image: url(./images/bg-pattern-intro-desktop.svg);
+  background-size: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
-
 .navbar {
-
-    font-family: 'Ubuntu', sans-serif;
-    --bs-navbar-active-color: white;
+  font-family: "Ubuntu", sans-serif;
+  --bs-navbar-active-color: white;
 }
 
 .nav-item.dropdown {
-    font-weight: 600;
-    font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .nav-link.dropdown-toggle {
-    color:white;
+  color: white;
 }
 
 a.nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 .dropdown-item:hover {
-    font-weight: bold;
-    background-color: transparent;
+  font-weight: bold;
+  background-color: transparent;
 }
 
-.btn{
-    background-color:hsl(13, 100%, 72%);
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    margin: 20px;
-    padding: 10px 30px;
-    border-radius: 100px 100px 100px 100px;
-    
+.btn {
+  background-color: hsl(13, 100%, 72%);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 100px 100px 100px 100px;
 }
 
 .btn:hover {
-    background-color: white;
-    color:#FF525C;
+  background-color: white;
+  color: #ff525c;
 }
-
 
 h1.mb-3 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
 }
 
+footer {
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 100px;
+  padding: 50px 80px;
+}
 
+.col {
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  .col {
+    flex: 100%;
+  }
+}
+
+.top-heading {
+  margin: 90px 70px;
+  margin-bottom: 20px;
+  color: hsl(237, 17%, 21%);
+}
+
+.top-section {
+  color: hsl(237, 17%, 21%);
+  margin: 80px 80px;
+}
+
+h3 {
+  color: hsl(237, 23%, 32%);
+}
+
+.bottom-section {
+  color: hsl(237, 17%, 21%);
+  padding: 40px 40px;
+  margin: 80px 80px;
+}
+
+.middle-section {
+  background-color: hsl(237, 17%, 21%);
+  color: white;
+  border-radius: 0px 100px 0px 100px;
+  padding: 50px 50px;
+}
+
+/* .image-top-section {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-right: -28%;
+  margin-top: -14%;
+}
+
+.image-bottom-section {
+  float: left;
+  width: 65%;
+  margin-left: -30%;
+}
+
+.image-middle-section {
+  float: left;
+  width: 65%;
+  margin-left: -30%;
+} */
