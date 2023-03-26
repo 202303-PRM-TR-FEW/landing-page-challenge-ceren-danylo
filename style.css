@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/specimen/Overpass?preview.text_type=custom);
+@import url(https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom);
+
+
+.hero{
+    border-bottom-left-radius: 120px;
+    padding: 30px;
+    background-color: #FF525C;
+    height: 450px;
+    background-image: url(./images/bg-pattern-intro-desktop.svg);
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+.navbar {
+
+    font-family: 'Ubuntu', sans-serif;
+    --bs-navbar-active-color: white;
+}
+
+.nav-item.dropdown {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-link.dropdown-toggle {
+    color:white;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.dropdown-item:hover {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn{
+    background-color:hsl(13, 100%, 72%);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 100px 100px 100px 100px;
+    
+}
+
+.btn:hover {
+    background-color: white;
+    color:#FF525C;
+}
+
+
+h1.mb-3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+
